@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <div class="container">
+        <h2>Student Enrollment Form</h2>
+        <form>
+            <label for="fname">First Name*</label>
+            <input type="text" id="fname" name="fname" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" >
+            <label for="regno">Register Number*</label>
+            <input type="text" id="regno" name="regno" required>
+            <label for="mobileno">Mobile Number*</label>
+            <input type="text" id="mobile" name="mobile" required>
+            <label for="gender">Gender</label> 
+    <select name="gender" id="gender"> 
+        <option value="rigatoni">Male</option> 
+        <option value="dave">Female</option> 
+        <option value="pumpernickel">Others</option>
+    </select>
+    <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required>
+            <label for="Dept">Department *</label> 
+    <select name="dept" id="dept" required> 
+        <option value="Cse">Computer Science</option> 
+        <option value="it">Electical end Electronics</option> 
+        <option value="mech">Mechanical</option>
+    </select>
+    <label for="year">Year *</label> 
+    <select name="year" id="year" required> 
+        <option value="first">First year</option> 
+        <option value="second">Second year</option> 
+        <option value="third">Third Year</option>
+        <option value="four">Fourth Year</option>
+    </select>
+    <label for="languages">Languages Known</label> 
+    <select name="language" id="language"> 
+        <option value="C">C</option> 
+        <option value="C++">C++</option> 
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+    </select>
+    <label for="slots">Slots *</label> 
+    <select name="slots" id="slots" required> 
+        <option value="10">10 AM</option> 
+        <option value="2">2 PM</option> 
+        <option value="5">5 PM</option>
+    </select>
+    <label for="myfile">Resume *</label>
+<input type="file" id="myfile" name="myfile" required>
+<button type="submit">Submit</button>
+      </form>
+       </div>
+    </body>
+</html>

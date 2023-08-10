@@ -1,0 +1,12 @@
+input,select{
+
+display: block;
+width:30%;
+
+}
+body {
+    margin: 0;
+    background-color: hsl(0, 0%, 98%);
+    color: #742121;
+    font: 100% / normal sans-serif;
+  }
